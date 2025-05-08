@@ -2,6 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+// This component is no longer used in the application
 const ScrollIndicator: React.FC = () => {
   return (
     <motion.div 

@@ -3,7 +3,6 @@ import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import gsap from 'gsap';
 import ProductModel from './ProductModel';
-import ScrollIndicator from './ScrollIndicator';
 
 const HeroSection: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -91,8 +90,6 @@ const HeroSection: React.FC = () => {
           </motion.div>
         </motion.div>
       </div>
-      
-      <ScrollIndicator />
     </section>
   );
 };
