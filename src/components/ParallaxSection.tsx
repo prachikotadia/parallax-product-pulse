@@ -1,6 +1,6 @@
-
 import React, { useEffect, useRef } from 'react';
 import { motion, useScroll, useTransform, useSpring } from 'framer-motion';
+import ProductModel from './ProductModel';
 
 interface FeatureCardProps {
   title: string;
